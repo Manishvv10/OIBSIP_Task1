@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+.categories{
+    display: grid;
+    height: 13vh;
+    padding: 0px 10vw;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.item{
+    height: 9vh;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+.label{
+    position: relative;
+    left: 4.5vw;
+}
+
+.label:hover{
+    color: #b822e6;
+    cursor: pointer;
+}
+
+.flex-all-center{
+    display: inline-block;
+    position: relative;
+    top: 12vh;
+    left: 21vw;
+    font-size: 14px;
+}
+
+.flex-all-ul{
+    display: inline-block;
+    position: relative;
+    top: -2.5vh;
+    left: 5vw;
+}
+
+.flex-all-ul li{
+    list-style-type: none;
+    padding: 6px 0px;
+    font-size: 12px;
+}
+
+ .flex-all-ul-1{
+    display: inline-block;
+    position: relative;
+    top: 5vh;
+    left: 15vw;
+}
+
+.flex-all-ul-1 li{
+    list-style-type: none;
+    padding: 6px 0px;
+    font-size: 12px;
+} 
+
+.flex-all-ul-2{
+    display: inline-block;
+    position: relative;
+    top: -2vh;
+    left: 26vw;
+}
+
+.flex-all-ul-2 li{
+    list-style-type: none;
+    padding: 6px 0px;
+    font-size: 12px;
+} 
+
+.flex-all-ul-3{
+    display: inline-block;
+    position: relative;
+    top: 1.5vh;
+    left: 36vw;
+}
+
+.flex-all-ul-3 li{
+    list-style-type: none;
+    padding: 6px 0px;
+    font-size: 12px;
+}
+
+.flex-all-ul-4{
+    display: inline-block;
+    position: relative;
+    top: -2.5vh;
+    left: 42vw;
+}
+
+.flex-all-ul-4 p{
+    inline-size: 200px;
+    font-size: 12px;
+    padding: 0px 6px;
+    line-height: 20px;
+} 
+
+.flex-all-ul-5{
+    display: inline-block;
+    position: relative;
+    top: -2.5vh;
+    left: 45vw;
+}
+
+.flex-all-ul-5 p{
+    inline-size: 200px;
+    font-size: 12px;
+    padding: 0px 6px;
+    line-height: 20px;
+}
+
+
+.btn{
+    padding: 6px 10px;
+    color: #2874f0;
+    border: 2px solid grey;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn2{
+    margin: 0 30px;
+    padding: 10px 50px;
+    background-color: rgb(230, 80, 10);
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-1{
+    margin: 3px 0;
+}
+
+.my-2{
+    margin: 26px 0;
+}
+
+.text-center{
+    text-align: center;
+}
